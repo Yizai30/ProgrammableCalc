@@ -31,7 +31,7 @@ response.setDateHeader("Expires", -10);
 <form class="form" action="<%=request.getContextPath()+"/workspace"%>" method="post" autocomplete="off">
     <div class="standard-main" id="std-main">
         <div class="title">
-            &nbsp;&nbsp;计算器
+            &nbsp;&nbsp;可编程计算器
         </div>
         <!--结果显示区域-->
         <div class="result">
@@ -49,7 +49,7 @@ response.setDateHeader("Expires", -10);
 
         <!--数字和符号-->
         <ul id="std-num-symbol">
-            <li value="37" class="function">F</li>
+            <li value="37" class="function">Fun</li>
             <li value="38" class="clear">C</li>
             <li value="39" class="back">Back</li>
             <li class="number" value="16">/</li>
